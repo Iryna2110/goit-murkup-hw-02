@@ -1,47 +1,41 @@
 body {
-    font-family: "Roboto", "Railway", sans-serif;
-    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    color: #434455;
+    background-color: #FFFFFF;
 }
-.header-line {
-    display: flex;
-    flex-direction: row;
-    background-color: #E7E9FC;
-}
-.top-line {
-}
-.top-line-logo {
-    color: #4D5AE5;
-    font-family: "Raleway";
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    color: #4d5ae5;
 }
-.header-logo {
-    font-family: "Raleway";
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+.header-logo:hover
+.header-logo:focus {
+    color: #404bbf;
 }
+.top-line-logo{
+    color: #2e2f42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+address {
+    font-style: normal;
+}
+
 .contacts {
-display: inline;
 color: #434455;
 }
-a:hover,
-a:focus {
-    color: #4D5AE5;
-}
+
 
 .hero {
     width: 1440px;
     height: 600px;
     background-color: #2E2F42;
-    text-align: center;
 }
 .hero-title {
     color: #ffffff;
