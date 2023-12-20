@@ -46,6 +46,9 @@ address {
 .address-item:focus {
     color: #404bbf;
 }
+.hero {
+    background-color: #2e2f42;
+}
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -69,7 +72,7 @@ address {
 .hero-button:focus {
     background-color: #404BBF
 }
-.features {
+.features-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
